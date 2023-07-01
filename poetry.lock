@@ -2388,6 +2388,18 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "wikipedia"
+version = "1.4.0"
+description = "Wikipedia API for Python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+beautifulsoup4 = "*"
+requests = ">=2.0.0,<3.0.0"
+
+[[package]]
 name = "yarl"
 version = "1.9.2"
 description = "Yet another URL library"
@@ -2414,7 +2426,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.1,<4.0"
-content-hash = "20282f82181d2522ab15372268095026abfa322f2dee05a5c96e479c431ff669"
+content-hash = "12c0bb0d76624d3c99818558e12f1bab203aaf07dc392974eddb23da025e2534"
 
 [metadata.files]
 aiohttp = []
@@ -2676,5 +2688,6 @@ webencodings = [
 ]
 websocket-client = []
 widgetsnbextension = []
+wikipedia = []
 yarl = []
 zipp = []

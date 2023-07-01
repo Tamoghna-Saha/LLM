@@ -1,4 +1,5 @@
 Princeton/
 *.docx
+.vscode/
 
 .env

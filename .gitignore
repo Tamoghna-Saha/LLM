@@ -2,4 +2,5 @@ Princeton/
 *.docx
 .vscode/
 
+poetry.lock
 .env
